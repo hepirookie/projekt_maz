@@ -1,0 +1,574 @@
+body{background-image: url("img/tlo.jpg"); 
+    background-attachment: fixed;
+    margin: 0px;
+    color: white;
+    }
+    p {font-family: "Open Sans";}
+    
+    h1{color: #ede44b;}
+    h3{color: #F0E68C;}
+    
+    div{box-sizing: border-box;}
+    
+    .logo{width: 100%;
+    background: #2b292a;
+    }
+    
+    .logo-content{margin: auto;
+    text-align: center;
+    position: relative;
+    width: 1900px;}
+    
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook{position: absolute;
+    left: -1px;
+    background: #3B5998;
+    color: white;}
+    
+    .fa-twitter{position: absolute;
+    background: #55ACEE;
+    color: white;
+    left: 69px;}
+    
+    .fa-instagram {position: absolute;
+    background: #125688;
+    color: white;
+    left: 139px;
+    }
+    
+    
+    /*/////////////////////////////////////////////NAWIGACJA*/
+    
+    div.nav{width: 100%;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    border: 2px white solid;
+    background: grey;
+    height: 55px;
+    z-index: 10;
+    }
+    
+    .navcontent{width: 1500px;
+    margin:auto;}
+    
+    .button {float: left;
+    width: 25%;
+    height: 51px;
+    }
+    
+    h2{color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 11px;
+    margin-bottom:11px;
+    }
+    
+    .navcontent a {text-decoration: none;}
+    
+    .button:hover{
+    background:  #666666;
+    border-radius: 2px;
+    }
+    
+    
+    /*/////////////////////////////////////////////STOPKA*/
+    
+    .footer{width: 100%;
+    border-top: 5px solid white;
+    height: 50px;
+    background: #2b292a;
+    clear: both;
+    }
+    
+    .footercontent{width: 1800px;
+    margin: auto;
+    text-align: center;}
+    
+    .footer a{
+        color: #ede44b;
+    }
+    
+    /*/////////////////////////////////////////////MENU ROZWIJANE*/
+    
+    .menu{position: relative;
+    display: inline-block;
+    }
+    
+    .menu-content{display: none;
+    position: relative;
+    background: #2b292a;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: white solid 2px;
+    text-align: center;
+    }
+    
+    .menu:hover .menu-content {
+    display: block;
+    }
+    
+    
+    .menu-content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+    padding:15px;
+    }
+    
+    .menu-content a:hover {
+    background: #808080;
+    border-radius: 18px;
+    }
+    
+    
+    .content{
+    width: 1600px;
+    min-height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    }
+    
+    .clear{clear: both;}
+    
+    /*/////////////////////////////////////////////TYTULY STRON W PROSTOKATACH
+    
+    
+    .title{border: white 5px solid;
+        width: 600px;
+        height: 80px;
+        margin: auto;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("robocze/pizza.jpg");
+        background-size: cover;
+        background-position: center;
+        z-index: -1
+    }
+    
+    .title h1{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-100%);
+    }
+    */
+    
+    /*/////////////////////////////////////////////WYBOR RODZAJU JEDZENIA Z MENU*/
+    
+    
+    .menu-type-hold{
+        margin: auto;
+        position: relative;
+        width: 1350px;
+    }
+    
+    .menu-type{border: white 10px solid;
+        float: left;
+        width: 300px;
+        height: 300px;
+        margin: 75px;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+    }
+    
+    .menu-type h2{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .menu-type:hover {
+        border-color: #ede44b;
+        transition-duration: 0.5s;
+    }
+    
+    .menu-type:hover h2{
+        color: #ede44b;
+        transition-duration: 0.5s;
+    }
+    
+    .main_course{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/main_course.jpg"); 
+    }
+    
+    .pizza{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pizza.jpg"); 
+    }
+    
+    .pasta{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pasta.jpg"); 
+    }
+    
+    .menu-type span{width: 100%;
+    height: 100%;
+    position: absolute;}
+    
+    
+    .tlo_tekstu{
+        background: #bcb6a0;
+        margin: auto;
+        position: relative;
+        min-height: 600px;
+        border:3px double white;
+        border-radius: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .tlo_tekstu h1{text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Arizonia"}
+    
+    .tlo_tekstu > p{
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 1px 1px black;
+    }
+    
+    
+    /*////////////////////////////////////GŁÓWNA//////////////*/
+    .hold{margin: auto;
+    width: 1903px;
+    height: 800px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("img/bigpizza.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+    
+    .witam{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-70%);
+    font-size: 100px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    }
+    
+    /*///////////////////////////DANIA GŁÓWNE/////////*/
+    
+    .tlo_tekstu h1{margin-bottom: 0px;}
+    
+    .produkt-lewo{position: relative;
+        width: 600px;
+        height: 200px;
+        text-align: center;
+        margin-left: 100px;
+        float: left;
+        margin-top: 80px;
+    }
+    
+    .produkt-prawo{position: relative;
+        width: 600px;
+        height: 200px;
+        text-align: center;
+        margin-left: 200px;
+        float: left;
+        margin-top: 80px;
+    }
+    .produkt-pic{position: relative;
+    width: 40%;
+    height: 100%;
+    padding: 15px;
+    background-position: center;
+    background-size: 240px 200px;
+    float: left;
+    }
+    
+    .mc1{
+        background-image: url("img/mc1.png");
+    }
+    
+    .mc2{
+        background-image: url("img/mc2.png");
+    }
+    
+    .mc3{
+        background-image: url("img/mc3.png");
+    }
+    
+    .mc4{
+        background-image: url("img/mc4.png");
+    }
+    
+    
+    .produkt-desc{position: relative;
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-left: 15px;
+    }
+    
+    .produkt-desc h3 {margin-top: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        text-shadow: 2px 2px black;
+    }
+    
+    .produkt-lewo p{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-75%);
+    }
+    .produkt-prawo p{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-100%);
+    }
+    
+    .p1{
+        background-image: url("img/p1.png");
+    }
+    
+    .p2{
+        background-image: url("img/p2.png");
+    }
+    
+    .p3{
+        background-image: url("img/p3.jpg");
+    }
+    
+    .p4{
+        background-image: url("img/p4.jpg");
+    }
+    
+    hr{border-color: black;
+    height: 1px;
+    background: black;}
+    
+    .pizza1{
+        background-image: url("img/pizza1.jpg");
+    }
+    
+    .pizza2{
+        background-image: url("img/pizza2.png");
+    }
+    
+    .pizza3{
+        background-image: url("img/pizza3.png");
+    }
+    
+    .pizza4{
+        background-image: url("img/pizza4.png");
+    }
+    .pizza5{
+        background-image: url("img/pizza5.png");
+    }
+    
+    .pizza6{
+        background-image: url("img/pizza6.png");
+    }
+    
+    .tlo-nowe{background: #bcb6a0;
+        width: 1500px;
+        margin: auto;
+        position: relative;
+        min-height: 685px;
+        border-left:3px solid white;
+        border-right:3px solid white;
+    }
+    
+    .inf{
+        background-image: url("img/inf2.png");
+        background-size: cover;
+        background-position: center;
+        width: 750px;
+        height: 687px;
+        box-shadow: 2px 0px 8px black;
+        float: left;
+    }
+    
+    .desc{height: 662px;
+        width: 744px;
+        float: left;
+        padding:25px 100px;
+    }
+    
+    .tlo-nowe h1{text-align: center;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Arizonia";
+    margin-top: 0px;
+    }
+    .desc h3{text-shadow: 1px 1px black;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .desc span{
+        font-size: 16px;
+    }
+    .desc table{position: relative;
+        margin-top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+    
+    .photo{
+        border: 10px solid white;
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+        float: left;
+        border-radius: 4px;
+        background-size: cover;
+        opacity: 0.8;
+    }
+    
+    .photo:hover{
+        transform: scale(1.25);
+        transition: 1s;
+        opacity: 1.0;
+        border-color: #ede44b;
+    }
+    
+    
+    .pop{padding-top: 25px; }
+    
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .g1{
+        background-image: url("img/g1.jpg");
+    }
+    
+    .g2{
+        background-image: url("img/g2.jpg");
+    }
+    
+    .g3{
+        background-image: url("img/g3.jpg");
+    }
+    
+    .g4{
+        background-image: url("img/g4.jpg");
+    }
+    
+    .g5{
+        background-image: url("img/g5.jpg");
+    }
+    
+    .g6{
+        background-image: url("img/g6.jpg");
+    }
+    
+    .g7{
+        background-image: url("img/g7.jpg");
+    }
+    
+    .g8{
+        background-image: url("img/g8.jpg");
+    }
+    
+    .g9{
+        background-image: url("img/g9.jpg");
+    }
+    
+    .g10{
+        background-image: url("img/g10.jpg");
+    }
+    
+    .g11{
+        background-image: url("img/g11.jpg");
+    }
+    
+    .tlo-nowe-nowe{
+        width: 1903px;
+        margin: auto;
+        position: relative;
+        min-height: 685px;
+        border-top: 2px white solid;
+    }
+    
+    .news{width: 911px;
+    height: 645px;
+    position: relative;
+    float: left;
+    border: 2px white double;
+    margin: 20px;
+    border-radius: 40px;
+    background: #bcb6a0;}
+    
+    .news span {position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 100px;
+        text-shadow: 2px 2px black;
+        text-align: center;
+        width: 80%; 
+        color: #ede44b;
+    }
+    
+    .glowna-opis{width: 50%;
+        float: left;
+        text-indent: 10px;
+        padding:30px;
+        position: relative;
+    }
+    
+    .artykul > h2{font-size: 40px;
+    line-height: 50px;
+    color: #ede44b;}
+    
+    .artykul > p{font-size: 16px;
+    text-align: justify;}
+    
+    .artykul{background-color: #2b292a;
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 500%;
+    transform: translate(0%,-50%);
+    margin: 50px;
+    }
+    
+    .login{width: 300px;
+        height: 100px;
+        border: 2px solid blue;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        background: #bcb6a0;
+        border: 3px double white;
+        border-radius: 10px;
+        padding-top: 10px;
+        font-size: 30px;
+        text-shadow: 1px 1px black;
+    }
+    #rej{width: 100%;}
