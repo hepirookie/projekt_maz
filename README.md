@@ -1,2 +1,2 @@
 # projekt_maz
-wersja nie dziala
+Wersja z którą nie mogę się połączyć
